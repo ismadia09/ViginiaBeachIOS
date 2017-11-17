@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5AEF6E901FBEDE530051B9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF6E8F1FBEDE530051B9FC /* AppDelegate.swift */; };
-		5AEF6E921FBEDE530051B9FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF6E911FBEDE530051B9FC /* ViewController.swift */; };
-		5AEF6E951FBEDE530051B9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF6E931FBEDE530051B9FC /* Main.storyboard */; };
 		5AEF6E971FBEDE530051B9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF6E961FBEDE530051B9FC /* Assets.xcassets */; };
 		5AEF6E9A1FBEDE530051B9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF6E981FBEDE530051B9FC /* LaunchScreen.storyboard */; };
+		5AEF6EA31FBEE2490051B9FC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF6EA11FBEE2490051B9FC /* MainViewController.swift */; };
+		5AEF6EA41FBEE2490051B9FC /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF6EA21FBEE2490051B9FC /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5AEF6E8C1FBEDE530051B9FC /* VirginiaBeach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirginiaBeach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEF6E8F1FBEDE530051B9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AEF6E911FBEDE530051B9FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5AEF6E941FBEDE530051B9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AEF6E961FBEDE530051B9FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AEF6E991FBEDE530051B9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AEF6E9B1FBEDE530051B9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AEF6EA11FBEE2490051B9FC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5AEF6EA21FBEE2490051B9FC /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				5AEF6E8F1FBEDE530051B9FC /* AppDelegate.swift */,
-				5AEF6E911FBEDE530051B9FC /* ViewController.swift */,
-				5AEF6E931FBEDE530051B9FC /* Main.storyboard */,
+				5AEF6EA11FBEE2490051B9FC /* MainViewController.swift */,
+				5AEF6EA21FBEE2490051B9FC /* MainViewController.xib */,
 				5AEF6E961FBEDE530051B9FC /* Assets.xcassets */,
 				5AEF6E981FBEDE530051B9FC /* LaunchScreen.storyboard */,
 				5AEF6E9B1FBEDE530051B9FC /* Info.plist */,
@@ -124,8 +124,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AEF6E9A1FBEDE530051B9FC /* LaunchScreen.storyboard in Resources */,
+				5AEF6EA41FBEE2490051B9FC /* MainViewController.xib in Resources */,
 				5AEF6E971FBEDE530051B9FC /* Assets.xcassets in Resources */,
-				5AEF6E951FBEDE530051B9FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +136,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AEF6E921FBEDE530051B9FC /* ViewController.swift in Sources */,
 				5AEF6E901FBEDE530051B9FC /* AppDelegate.swift in Sources */,
+				5AEF6EA31FBEE2490051B9FC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5AEF6E931FBEDE530051B9FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AEF6E941FBEDE530051B9FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5AEF6E981FBEDE530051B9FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

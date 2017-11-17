@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  VirginiaBeach
+
+  Created by Isma Dia on 17/11/2017.
+  Copyright © 2017 Isma Dia. All rights reserved.
+*/
+
+
+"controller.main.navigation_controller_title" = "Home";
+"controller.main.titleLabel" = "Welcome !";
+"controller.main.questionLabel" = "Do you want to access to the events list?";
+"controller.main.goButton" = "GO";

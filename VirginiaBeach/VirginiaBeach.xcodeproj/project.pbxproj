@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A57A69B1FBF01000057AE37 /* RestaurantDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A57A6991FBF01000057AE37 /* RestaurantDetailedViewController.swift */; };
+		5A57A69C1FBF01000057AE37 /* RestaurantDetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A57A69A1FBF01000057AE37 /* RestaurantDetailedViewController.xib */; };
+		5A57A6A11FBF02370057AE37 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A57A6A01FBF02370057AE37 /* Restaurant.swift */; };
+		5A57A6A31FBF05B50057AE37 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A57A6A21FBF05B50057AE37 /* Attraction.swift */; };
 		5AEF6E901FBEDE530051B9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF6E8F1FBEDE530051B9FC /* AppDelegate.swift */; };
 		5AEF6E971FBEDE530051B9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF6E961FBEDE530051B9FC /* Assets.xcassets */; };
 		5AEF6E9A1FBEDE530051B9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF6E981FBEDE530051B9FC /* LaunchScreen.storyboard */; };
 		5AEF6EA31FBEE2490051B9FC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF6EA11FBEE2490051B9FC /* MainViewController.swift */; };
 		5AEF6EA41FBEE2490051B9FC /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF6EA21FBEE2490051B9FC /* MainViewController.xib */; };
+		5AEF6EA71FBEF2060051B9FC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF6EA91FBEF2060051B9FC /* Localizable.strings */; };
+		5AEF6EAE1FBEFF680051B9FC /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF6EAC1FBEFF670051B9FC /* RestaurantListViewController.swift */; };
+		5AEF6EAF1FBEFF680051B9FC /* RestaurantListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF6EAD1FBEFF670051B9FC /* RestaurantListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A57A6991FBF01000057AE37 /* RestaurantDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailedViewController.swift; sourceTree = "<group>"; };
+		5A57A69A1FBF01000057AE37 /* RestaurantDetailedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantDetailedViewController.xib; sourceTree = "<group>"; };
+		5A57A6A01FBF02370057AE37 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		5A57A6A21FBF05B50057AE37 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
 		5AEF6E8C1FBEDE530051B9FC /* VirginiaBeach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirginiaBeach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEF6E8F1FBEDE530051B9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AEF6E961FBEDE530051B9FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -22,6 +33,11 @@
 		5AEF6E9B1FBEDE530051B9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AEF6EA11FBEE2490051B9FC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5AEF6EA21FBEE2490051B9FC /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		5AEF6EA81FBEF2060051B9FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5AEF6EAA1FBEF2420051B9FC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5AEF6EAB1FBEF2420051B9FC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5AEF6EAC1FBEFF670051B9FC /* RestaurantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
+		5AEF6EAD1FBEFF670051B9FC /* RestaurantListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A57A69D1FBF01E40057AE37 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AEF6EAC1FBEFF670051B9FC /* RestaurantListViewController.swift */,
+				5AEF6EAD1FBEFF670051B9FC /* RestaurantListViewController.xib */,
+				5A57A6991FBF01000057AE37 /* RestaurantDetailedViewController.swift */,
+				5A57A69A1FBF01000057AE37 /* RestaurantDetailedViewController.xib */,
+				5AEF6EA11FBEE2490051B9FC /* MainViewController.swift */,
+				5AEF6EA21FBEE2490051B9FC /* MainViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A57A69F1FBF02190057AE37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A57A6A01FBF02370057AE37 /* Restaurant.swift */,
+				5A57A6A21FBF05B50057AE37 /* Attraction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5AEF6E831FBEDE530051B9FC = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +93,12 @@
 			isa = PBXGroup;
 			children = (
 				5AEF6E8F1FBEDE530051B9FC /* AppDelegate.swift */,
-				5AEF6EA11FBEE2490051B9FC /* MainViewController.swift */,
-				5AEF6EA21FBEE2490051B9FC /* MainViewController.xib */,
+				5A57A69D1FBF01E40057AE37 /* Controller */,
+				5A57A69F1FBF02190057AE37 /* Model */,
 				5AEF6E961FBEDE530051B9FC /* Assets.xcassets */,
 				5AEF6E981FBEDE530051B9FC /* LaunchScreen.storyboard */,
 				5AEF6E9B1FBEDE530051B9FC /* Info.plist */,
+				5AEF6EA91FBEF2060051B9FC /* Localizable.strings */,
 			);
 			path = VirginiaBeach;
 			sourceTree = "<group>";
@@ -107,6 +146,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 5AEF6E831FBEDE530051B9FC;
 			productRefGroup = 5AEF6E8D1FBEDE530051B9FC /* Products */;
@@ -124,8 +164,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AEF6E9A1FBEDE530051B9FC /* LaunchScreen.storyboard in Resources */,
+				5AEF6EA71FBEF2060051B9FC /* Localizable.strings in Resources */,
 				5AEF6EA41FBEE2490051B9FC /* MainViewController.xib in Resources */,
+				5A57A69C1FBF01000057AE37 /* RestaurantDetailedViewController.xib in Resources */,
 				5AEF6E971FBEDE530051B9FC /* Assets.xcassets in Resources */,
+				5AEF6EAF1FBEFF680051B9FC /* RestaurantListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A57A6A11FBF02370057AE37 /* Restaurant.swift in Sources */,
 				5AEF6E901FBEDE530051B9FC /* AppDelegate.swift in Sources */,
+				5A57A69B1FBF01000057AE37 /* RestaurantDetailedViewController.swift in Sources */,
+				5AEF6EAE1FBEFF680051B9FC /* RestaurantListViewController.swift in Sources */,
+				5A57A6A31FBF05B50057AE37 /* Attraction.swift in Sources */,
 				5AEF6EA31FBEE2490051B9FC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,8 +195,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				5AEF6E991FBEDE530051B9FC /* Base */,
+				5AEF6EAA1FBEF2420051B9FC /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5AEF6EA91FBEF2060051B9FC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AEF6EA81FBEF2060051B9FC /* en */,
+				5AEF6EAB1FBEF2420051B9FC /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -159,6 +216,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -216,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  RestaurantListViewController.swift
 //  VirginiaBeach
 //
 //  Created by Isma Dia on 17/11/2017.
@@ -8,12 +8,14 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class RestaurantListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-   
+
+    
+
 }
